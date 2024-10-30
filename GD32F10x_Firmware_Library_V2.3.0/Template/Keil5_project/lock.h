@@ -14,3 +14,4 @@ void lock_read(void);
 void lock_set(void);
 
 #endif /* LOCK_H */
+

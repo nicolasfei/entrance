@@ -58,7 +58,7 @@ typedef enum
 void button_init(button_typedef_enum btnNum);
 
 /* button release function */
-void button_release();
+void button_release(void);
 
 /* button read function */
 button_status_typedef_enum button_read(button_typedef_enum btnNum);
@@ -67,3 +67,4 @@ button_status_typedef_enum button_read(button_typedef_enum btnNum);
 void button_set(button_typedef_enum btnNum);
 
 #endif /* BUTTON_H */
+

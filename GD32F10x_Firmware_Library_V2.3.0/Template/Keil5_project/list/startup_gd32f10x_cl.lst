@@ -630,10 +630,11 @@ ARM Macro Assembler    Page 10
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
 ork --depend=.\output\startup_gd32f10x_cl.d -o.\output\startup_gd32f10x_cl.o -I
 .\RTE\_GD32F10X_CL -Id:\Keil_v5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\I
-nclude -Id:\Keil_v5\ARM\CMSIS\Include --predefine="__MICROLIB SETA 1" --predefi
-ne="__UVISION_VERSION SETA 525" --predefine="GD32F10X_CL SETA 1" --predefine="U
-SE_STDPERIPH_DRIVER SETA 1" --list=.\list\startup_gd32f10x_cl.lst ..\..\Firmwar
-e\CMSIS\GD\GD32F10x\Source\ARM\startup_gd32f10x_cl.s
+nclude -Id:\Keil_v5\ARM\CMSIS\Include --predefine="__EVAL SETA 1" --predefine="
+__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 525" --predefine="GD32F1
+0X_CL SETA 1" --predefine="USE_STDPERIPH_DRIVER SETA 1" --list=.\list\startup_g
+d32f10x_cl.lst ..\..\Firmware\CMSIS\GD\GD32F10x\Source\ARM\startup_gd32f10x_cl.
+s
 
 
 
@@ -1847,4 +1848,4 @@ d32f10x_cl.s
 d32f10x_cl.s
 Comment: __main used once
 2 symbols
-429 symbols in table
+430 symbols in table
